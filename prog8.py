@@ -1,3 +1,4 @@
+#Write a Program to accept a directed graph G and compute the in-degree and outdegree of each vertex.
 class DirectedGraph:
     def __init__(self, vertices):
         self.vertices = vertices
