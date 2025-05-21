@@ -1,3 +1,5 @@
+#Create a class SET , Create member functions to perform the following SET operation.
+
 class SET:
     def __init__(self, u_set):
         self.u_set = u_set
