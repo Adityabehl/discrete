@@ -1,3 +1,4 @@
+#
 #Write a Program to accept a directed graph G and compute the in-degree and outdegree of each vertex.
 class DirectedGraph:
     def __init__(self, vertices):
@@ -33,4 +34,4 @@ if __name__ == "__main__":
 
     print("\nVertex\tin-Degree\tOut-Degree")
     for v in range(num_vertices):
-        print(f"{v}\t{in_degrees[v]}\t\t{out_degrees[v]}")
+        print(f"{v}\t\t\t{in_degrees[v]}\t\t\t\t{out_degrees[v]}")
