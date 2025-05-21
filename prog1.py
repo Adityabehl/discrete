@@ -16,16 +16,16 @@ class SET:
   
   def powerset(self):
   
-   Ist=[]
+     Ist=[]
+    
+     length = len(self.u_set)
+    
+     for i in range(1 << length):
   
-   length = len(self.u_set)
-  
-   for i in range(1 << length):
-  
-     Ist.append({self.u_set[j] for j in range(length) if (i & (1
-  
-   print("Your Required Powerset Are:: ", Ist)
-  
+         Ist.append({self.u_set[j] for j in range(length) if (i & (1
+      
+     print("Your Required Powerset Are:: ", Ist)
+      
   def subset(self, subset_set):
   
    if subset_set.u_set.issubset(self.u_set):
