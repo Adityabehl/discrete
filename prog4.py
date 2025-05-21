@@ -1,3 +1,6 @@
+#For any number n, write a program to list all the solutions of the equation x1 + x2 + x3 + ... + xn = C,
+#where C is a constant (C<=10) and x1, x2,x3,...,xn are 
+#nonnegative integers, using brute force strategy.
 def find_solutions(C, n):
     def generate_solutions(current_sum, current_solution, remaining_terms):
         if current_sum == C and len(current_solution) == n:
